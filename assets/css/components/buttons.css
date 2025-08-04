@@ -1,0 +1,431 @@
+/* ========================================
+   Stratosphere Consulting - Button Component
+   File: assets/css/components/buttons.css
+   
+   Button Styles and Variants
+   ======================================== */
+
+/* =================
+   Base Button
+   ================= */
+
+.btn {
+  /* Display & Box Model */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-6);
+  
+  /* Typography */
+  font-family: var(--font-primary);
+  font-size: var(--text-base);
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-none);
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  
+  /* Visual */
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  
+  /* Behavior */
+  cursor: pointer;
+  user-select: none;
+  transition: all var(--transition-base) var(--ease-in-out);
+  
+  /* States */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover state */
+.btn:hover {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Focus state */
+.btn:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Active state */
+.btn:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Disabled state */
+.btn:disabled,
+.btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* =================
+   Button Sizes
+   ================= */
+
+/* Small */
+.btn--sm {
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--text-sm);
+}
+
+/* Large */
+.btn--lg {
+  padding: var(--space-4) var(--space-8);
+  font-size: var(--text-lg);
+}
+
+/* Extra Large */
+.btn--xl {
+  padding: var(--space-5) var(--space-10);
+  font-size: var(--text-xl);
+}
+
+/* =================
+   Button Variants
+   ================= */
+
+/* Primary (default) - already styled in base */
+
+/* Secondary */
+.btn--secondary {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.btn--secondary:hover {
+  background-color: var(--color-secondary-dark);
+  border-color: var(--color-secondary-dark);
+}
+
+/* Accent */
+.btn--accent {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.btn--accent:hover {
+  background-color: var(--color-accent-dark);
+  border-color: var(--color-accent-dark);
+}
+
+/* Outline */
+.btn--outline {
+  background-color: transparent;
+  color: var(--color-primary);
+}
+
+.btn--outline:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+/* Outline Secondary */
+.btn--outline-secondary {
+  background-color: transparent;
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.btn--outline-secondary:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
+/* Ghost */
+.btn--ghost {
+  background-color: transparent;
+  color: var(--text-primary);
+  border-color: transparent;
+}
+
+.btn--ghost:hover {
+  background-color: var(--bg-secondary);
+  border-color: var(--border-light);
+}
+
+/* White */
+.btn--white {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  border-color: var(--color-white);
+}
+
+.btn--white:hover {
+  background-color: var(--color-gray-50);
+  border-color: var(--color-gray-50);
+}
+
+/* =================
+   Button States
+   ================= */
+
+/* Loading state */
+.btn--loading {
+  color: transparent;
+  pointer-events: none;
+}
+
+.btn--loading::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -8px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: btn-loading-spin 0.6s linear infinite;
+}
+
+@keyframes btn-loading-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Success state */
+.btn--success {
+  background-color: var(--color-success);
+  border-color: var(--color-success);
+}
+
+.btn--success:hover {
+  background-color: var(--color-success);
+  border-color: var(--color-success);
+  transform: none;
+  cursor: default;
+}
+
+/* Error state */
+.btn--error {
+  background-color: var(--color-error);
+  border-color: var(--color-error);
+}
+
+/* =================
+   Button Modifiers
+   ================= */
+
+/* Full width */
+.btn--full {
+  width: 100%;
+}
+
+/* Rounded */
+.btn--rounded {
+  border-radius: var(--radius-full);
+}
+
+/* Square */
+.btn--square {
+  padding: var(--space-3);
+  aspect-ratio: 1;
+}
+
+/* Icon button */
+.btn--icon {
+  padding: var(--space-2);
+}
+
+.btn--icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* =================
+   Button Group
+   ================= */
+
+.btn-group {
+  display: inline-flex;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.btn-group .btn {
+  border-radius: 0;
+  margin-right: -2px;
+}
+
+.btn-group .btn:first-child {
+  border-top-left-radius: var(--radius-md);
+  border-bottom-left-radius: var(--radius-md);
+}
+
+.btn-group .btn:last-child {
+  border-top-right-radius: var(--radius-md);
+  border-bottom-right-radius: var(--radius-md);
+  margin-right: 0;
+}
+
+.btn-group .btn:hover,
+.btn-group .btn:focus {
+  z-index: 1;
+}
+
+/* Vertical group */
+.btn-group--vertical {
+  flex-direction: column;
+}
+
+.btn-group--vertical .btn {
+  margin-right: 0;
+  margin-bottom: -2px;
+}
+
+.btn-group--vertical .btn:first-child {
+  border-radius: 0;
+  border-top-left-radius: var(--radius-md);
+  border-top-right-radius: var(--radius-md);
+}
+
+.btn-group--vertical .btn:last-child {
+  border-bottom-left-radius: var(--radius-md);
+  border-bottom-right-radius: var(--radius-md);
+  margin-bottom: 0;
+}
+
+/* =================
+   Button with Icon
+   ================= */
+
+.btn__icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.btn__icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Icon on right */
+.btn__icon--right {
+  order: 1;
+}
+
+/* =================
+   Floating Action Button
+   ================= */
+
+.fab {
+  position: fixed;
+  bottom: var(--space-6);
+  right: var(--space-6);
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-xl);
+  cursor: pointer;
+  transition: all var(--transition-base) var(--ease-in-out);
+  z-index: var(--z-30);
+}
+
+.fab:hover {
+  transform: scale(1.1);
+  box-shadow: var(--shadow-2xl);
+}
+
+.fab svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* Mini FAB */
+.fab--mini {
+  width: 40px;
+  height: 40px;
+}
+
+.fab--mini svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* =================
+   Button Animations
+   ================= */
+
+/* Ripple effect */
+.btn--ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn--ripple::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.btn--ripple:active::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* Pulse animation */
+.btn--pulse {
+  animation: btn-pulse 2s infinite;
+}
+
+@keyframes btn-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(var(--color-primary-rgb), 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(var(--color-primary-rgb), 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(var(--color-primary-rgb), 0);
+  }
+}
+
+/* =================
+   Responsive
+   ================= */
+
+@media (max-width: 640px) {
+  .btn {
+    padding: var(--space-3) var(--space-4);
+    font-size: var(--text-sm);
+  }
+  
+  .btn--lg {
+    padding: var(--space-3) var(--space-6);
+    font-size: var(--text-base);
+  }
+  
+  .btn--xl {
+    padding: var(--space-4) var(--space-8);
+    font-size: var(--text-lg);
+  }
+}

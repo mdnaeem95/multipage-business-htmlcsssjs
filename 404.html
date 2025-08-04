@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page not found - Stratosphere Consulting">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <title>404 - Page Not Found | Stratosphere Consulting</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <!-- Theme Script (prevent flash) -->
+    <script>
+        (function() {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+        })();
+    </script>
+    
+    <style>
+        /* 404 Page Specific Styles */
+        .error-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: var(--space-8) var(--space-4);
+            background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .error-page::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(var(--color-primary-rgb), 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(var(--color-accent-rgb), 0.03) 0%, transparent 50%);
+            z-index: 0;
+        }
+        
+        .error-content {
+            text-align: center;
+            max-width: 600px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .error-code {
+            font-size: 10rem;
+            font-weight: var(--font-extrabold);
+            line-height: 1;
+            color: var(--color-primary);
+            margin-bottom: var(--space-4);
+            position: relative;
+            display: inline-block;
+        }
+        
+        @media (max-width: 640px) {
+            .error-code {
+                font-size: 6rem;
+            }
+        }
+        
+        .error-code::before {
+            content: '404';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20rem;
+            color: var(--bg-tertiary);
+            z-index: -1;
+            opacity: 0.5;
+        }
+        
+        @media (max-width: 640px) {
+            .error-code::before {
+                font-size: 12rem;
+            }
+        }
+        
+        .error-title {
+            font-size: var(--text-3xl);
+            font-weight: var(--font-bold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-4);
+        }
+        
+        .error-description {
+            font-size: var(--text-lg);
+            color: var(--text-secondary);
+            margin-bottom: var(--space-8);
+            line-height: var(--leading-relaxed);
+        }
+        
+        .error-actions {
+            display: flex;
+            gap: var(--space-4);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .error-illustration {
+            position: absolute;
+            opacity: 0.1;
+            pointer-events: none;
+        }
+        
+        .error-illustration--1 {
+            top: 10%;
+            left: 5%;
+            width: 100px;
+            height: 100px;
+            background: var(--color-primary);
+            border-radius: 50%;
+            filter: blur(40px);
+        }
+        
+        .error-illustration--2 {
+            bottom: 10%;
+            right: 10%;
+            width: 150px;
+            height: 150px;
+            background: var(--color-accent);
+            border-radius: 50%;
+            filter: blur(60px);
+        }
+        
+        .error-illustration--3 {
+            top: 50%;
+            right: 5%;
+            width: 80px;
+            height: 80px;
+            background: var(--color-secondary);
+            border-radius: 50%;
+            filter: blur(30px);
+        }
+        
+        /* Animated gradient background */
+        @keyframes gradient-shift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        .error-page {
+            background-size: 200% 200%;
+            animation: gradient-shift 10s ease infinite;
+        }
+        
+        /* 404 number animation */
+        .error-code {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        /* Search suggestions */
+        .search-suggestions {
+            margin-top: var(--space-12);
+            padding: var(--space-6);
+            background: var(--bg-primary);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .search-suggestions__title {
+            font-size: var(--text-lg);
+            font-weight: var(--font-semibold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-4);
+        }
+        
+        .search-suggestions__links {
+            display: flex;
+            gap: var(--space-3);
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .search-suggestions__link {
+            padding: var(--space-2) var(--space-4);
+            background: var(--bg-secondary);
+            border-radius: var(--radius-full);
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: var(--text-sm);
+            transition: all var(--transition-base) var(--ease-in-out);
+        }
+        
+        .search-suggestions__link:hover {
+            background: var(--color-primary);
+            color: var(--color-white);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="error-page">
+        <!-- Background illustrations -->
+        <div class="error-illustration error-illustration--1"></div>
+        <div class="error-illustration error-illustration--2"></div>
+        <div class="error-illustration error-illustration--3"></div>
+        
+        <!-- Error content -->
+        <div class="error-content">
+            <div class="error-code" data-aos="zoom-in">404</div>
+            
+            <h1 class="error-title" data-aos="fade-up" data-aos-delay="100">
+                Page Not Found
+            </h1>
+            
+            <p class="error-description" data-aos="fade-up" data-aos-delay="200">
+                Sorry, we couldn't find the page you're looking for. It might have been moved, 
+                deleted, or perhaps never existed in the first place.
+            </p>
+            
+            <div class="error-actions" data-aos="fade-up" data-aos-delay="300">
+                <a href="/" class="btn btn--lg btn--primary">
+                    <svg class="btn__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12 19 5 12 12 5"></polyline>
+                    </svg>
+                    Back to Home
+                </a>
+                <a href="/contact.html" class="btn btn--lg btn--outline">
+                    Report Issue
+                </a>
+            </div>
+            
+            <!-- Search suggestions -->
+            <div class="search-suggestions" data-aos="fade-up" data-aos-delay="400">
+                <h2 class="search-suggestions__title">You might be looking for:</h2>
+                <div class="search-suggestions__links">
+                    <a href="/services.html" class="search-suggestions__link">Our Services</a>
+                    <a href="/about.html" class="search-suggestions__link">About Us</a>
+                    <a href="/case-studies.html" class="search-suggestions__link">Case Studies</a>
+                    <a href="/contact.html" class="search-suggestions__link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="assets/js/core/utils.js"></script>
+    <script src="assets/js/core/theme.js"></script>
+    <script src="assets/js/components/animations.js"></script>
+    <script>
+        // Initialize theme
+        if (typeof ThemeManager !== 'undefined') {
+            ThemeManager.init();
+        }
+        
+        // Initialize animations
+        if (typeof AnimationManager !== 'undefined') {
+            AnimationManager.init();
+        }
+        
+        // Redirect to home after delay (optional)
+        // setTimeout(() => {
+        //     window.location.href = '/';
+        // }, 10000); // 10 seconds
+    </script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+{
+  "services": [
+    {
+      "id": "strategy-consulting",
+      "name": "Strategy Consulting",
+      "shortDescription": "Develop winning strategies that drive sustainable growth and competitive advantage.",
+      "description": "Our strategy consulting services help you navigate complex business challenges and identify opportunities for growth. We work closely with your leadership team to develop actionable strategies that align with your vision and market realities.",
+      "icon": "strategy",
+      "color": "primary",
+      "features": [
+        "Market analysis and competitive intelligence",
+        "Business model innovation",
+        "Growth strategy development",
+        "Strategic planning and roadmapping",
+        "M&A advisory and integration",
+        "Portfolio optimization"
+      ],
+      "benefits": [
+        {
+          "title": "Clear Direction",
+          "description": "Develop a clear strategic vision and roadmap for your organization"
+        },
+        {
+          "title": "Competitive Edge",
+          "description": "Identify and leverage your unique competitive advantages"
+        },
+        {
+          "title": "Sustainable Growth",
+          "description": "Build strategies that drive long-term, sustainable growth"
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Discovery",
+          "description": "Deep dive into your business, market, and competitive landscape"
+        },
+        {
+          "step": 2,
+          "title": "Analysis",
+          "description": "Comprehensive analysis of opportunities and challenges"
+        },
+        {
+          "step": 3,
+          "title": "Strategy Development",
+          "description": "Collaborative development of strategic options and recommendations"
+        },
+        {
+          "step": 4,
+          "title": "Implementation Planning",
+          "description": "Detailed roadmap and action plans for execution"
+        }
+      ],
+      "industries": ["Technology", "Healthcare", "Financial Services", "Retail", "Manufacturing"],
+      "caseStudies": ["techcorp-transformation", "healthplus-expansion", "finbank-digital"],
+      "pricing": {
+        "model": "Project-based",
+        "startingFrom": 50000,
+        "factors": ["Scope", "Duration", "Team size"]
+      }
+    },
+    {
+      "id": "digital-transformation",
+      "name": "Digital Transformation",
+      "shortDescription": "Modernize your business with cutting-edge digital solutions and strategies.",
+      "description": "We help organizations embrace digital technologies to transform their operations, enhance customer experiences, and create new business models. Our holistic approach ensures successful digital transformation across all aspects of your business.",
+      "icon": "digital",
+      "color": "accent",
+      "features": [
+        "Digital strategy development",
+        "Technology assessment and selection",
+        "Process digitization and automation",
+        "Data analytics and insights",
+        "Cloud migration and modernization",
+        "Digital customer experience design"
+      ],
+      "benefits": [
+        {
+          "title": "Enhanced Efficiency",
+          "description": "Streamline operations through automation and digital processes"
+        },
+        {
+          "title": "Better Customer Experience",
+          "description": "Deliver exceptional digital experiences to your customers"
+        },
+        {
+          "title": "Data-Driven Decisions",
+          "description": "Leverage data analytics for better business insights"
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Digital Maturity Assessment",
+          "description": "Evaluate current digital capabilities and identify gaps"
+        },
+        {
+          "step": 2,
+          "title": "Strategy Design",
+          "description": "Develop comprehensive digital transformation strategy"
+        },
+        {
+          "step": 3,
+          "title": "Technology Implementation",
+          "description": "Deploy and integrate new digital solutions"
+        },
+        {
+          "step": 4,
+          "title": "Change Management",
+          "description": "Ensure successful adoption through training and support"
+        }
+      ],
+      "industries": ["Retail", "Banking", "Insurance", "Healthcare", "Manufacturing"],
+      "caseStudies": ["retailmax-digital", "globalbank-transformation", "manufact-iot"],
+      "pricing": {
+        "model": "Retainer + Project",
+        "startingFrom": 75000,
+        "factors": ["Technology stack", "Integration complexity", "Organization size"]
+      }
+    },
+    {
+      "id": "operations-excellence",
+      "name": "Operations Excellence",
+      "shortDescription": "Optimize your operations for maximum efficiency and profitability.",
+      "description": "Our operations excellence services focus on improving efficiency, reducing costs, and enhancing quality across your organization. We apply proven methodologies to transform your operations and drive continuous improvement.",
+      "icon": "operations",
+      "color": "success",
+      "features": [
+        "Process optimization and reengineering",
+        "Lean and Six Sigma implementation",
+        "Supply chain optimization",
+        "Quality management systems",
+        "Cost reduction programs",
+        "Performance management"
+      ],
+      "benefits": [
+        {
+          "title": "Cost Reduction",
+          "description": "Achieve significant cost savings through operational efficiency"
+        },
+        {
+          "title": "Quality Improvement",
+          "description": "Enhance product and service quality consistently"
+        },
+        {
+          "title": "Faster Delivery",
+          "description": "Reduce cycle times and improve speed to market"
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Current State Analysis",
+          "description": "Map and analyze existing processes and performance"
+        },
+        {
+          "step": 2,
+          "title": "Opportunity Identification",
+          "description": "Identify improvement opportunities and prioritize initiatives"
+        },
+        {
+          "step": 3,
+          "title": "Solution Design",
+          "description": "Design optimized processes and operational models"
+        },
+        {
+          "step": 4,
+          "title": "Implementation & Monitoring",
+          "description": "Implement changes and establish continuous improvement"
+        }
+      ],
+      "industries": ["Manufacturing", "Logistics", "Healthcare", "Energy", "Telecommunications"],
+      "caseStudies": ["logistics-optimization", "energy-efficiency", "healthcare-lean"],
+      "pricing": {
+        "model": "Performance-based",
+        "startingFrom": 40000,
+        "factors": ["Scope", "Potential savings", "Implementation duration"]
+      }
+    },
+    {
+      "id": "leadership-development",
+      "name": "Leadership Development",
+      "shortDescription": "Build strong leaders and high-performing teams for sustainable success.",
+      "description": "We develop customized leadership programs that build the capabilities your organization needs to succeed. Our approach combines assessment, coaching, and experiential learning to create lasting behavioral change.",
+      "icon": "leadership",
+      "color": "warning",
+      "features": [
+        "Executive coaching and mentoring",
+        "Leadership assessment and development",
+        "Team building and effectiveness",
+        "Succession planning",
+        "Culture transformation",
+        "Change leadership"
+      ],
+      "benefits": [
+        {
+          "title": "Stronger Leaders",
+          "description": "Develop leaders who can drive organizational success"
+        },
+        {
+          "title": "Engaged Teams",
+          "description": "Build high-performing, engaged teams across the organization"
+        },
+        {
+          "title": "Cultural Alignment",
+          "description": "Create a culture that supports your strategic objectives"
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Leadership Assessment",
+          "description": "Evaluate current leadership capabilities and gaps"
+        },
+        {
+          "step": 2,
+          "title": "Program Design",
+          "description": "Design customized development programs and experiences"
+        },
+        {
+          "step": 3,
+          "title": "Delivery & Coaching",
+          "description": "Deliver programs and provide ongoing coaching support"
+        },
+        {
+          "step": 4,
+          "title": "Impact Measurement",
+          "description": "Measure progress and adjust programs for maximum impact"
+        }
+      ],
+      "industries": ["All Industries"],
+      "caseStudies": ["techleaders-program", "retail-culture", "pharma-succession"],
+      "pricing": {
+        "model": "Per participant",
+        "startingFrom": 5000,
+        "factors": ["Program duration", "Number of participants", "Coaching intensity"]
+      }
+    }
+  ],
+  "servicePackages": [
+    {
+      "id": "transformation-accelerator",
+      "name": "Transformation Accelerator",
+      "description": "Comprehensive package combining strategy, digital, and leadership development",
+      "services": ["strategy-consulting", "digital-transformation", "leadership-development"],
+      "duration": "12-18 months",
+      "idealFor": "Large enterprises undergoing major transformation"
+    },
+    {
+      "id": "growth-catalyst",
+      "name": "Growth Catalyst",
+      "description": "Focused package for companies looking to scale rapidly",
+      "services": ["strategy-consulting", "operations-excellence"],
+      "duration": "6-9 months",
+      "idealFor": "Mid-market companies seeking accelerated growth"
+    },
+    {
+      "id": "digital-jumpstart",
+      "name": "Digital Jumpstart",
+      "description": "Quick-start digital transformation for immediate impact",
+      "services": ["digital-transformation"],
+      "duration": "3-6 months",
+      "idealFor": "Companies beginning their digital journey"
+    }
+  ]
+}

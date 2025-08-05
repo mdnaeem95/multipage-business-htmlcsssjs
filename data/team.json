@@ -1,0 +1,125 @@
+{
+  "team": [
+    {
+      "id": "sarah-chen",
+      "name": "Sarah Chen",
+      "role": "CEO & Founder",
+      "department": "Leadership",
+      "bio": "With over 20 years of experience in strategic consulting, Sarah founded Stratosphere to help businesses reach their full potential. She holds an MBA from Wharton and has led transformations for Fortune 500 companies.",
+      "image": "/assets/images/team/sarah-chen.jpg",
+      "social": {
+        "linkedin": "https://linkedin.com/in/sarahchen",
+        "twitter": "https://twitter.com/sarahchen"
+      },
+      "featured": true
+    },
+    {
+      "id": "michael-torres",
+      "name": "Michael Torres",
+      "role": "Chief Strategy Officer",
+      "department": "Strategy",
+      "bio": "Michael brings 15 years of experience in corporate strategy and business development. He specializes in market entry strategies and has helped numerous startups scale successfully.",
+      "image": "/assets/images/team/michael-torres.jpg",
+      "social": {
+        "linkedin": "https://linkedin.com/in/michaeltorres"
+      },
+      "featured": true
+    },
+    {
+      "id": "emily-johnson",
+      "name": "Emily Johnson",
+      "role": "VP of Digital Transformation",
+      "department": "Digital",
+      "bio": "Emily leads our digital transformation practice, helping companies modernize their operations and embrace new technologies. She has a background in both technology and business strategy.",
+      "image": "/assets/images/team/emily-johnson.jpg",
+      "social": {
+        "linkedin": "https://linkedin.com/in/emilyjohnson",
+        "twitter": "https://twitter.com/emilyjtech"
+      },
+      "featured": true
+    },
+    {
+      "id": "david-kim",
+      "name": "David Kim",
+      "role": "Director of Operations Excellence",
+      "department": "Operations",
+      "bio": "David specializes in operational efficiency and process optimization. He has helped companies reduce costs by up to 30% while improving quality and customer satisfaction.",
+      "image": "/assets/images/team/david-kim.jpg",
+      "social": {
+        "linkedin": "https://linkedin.com/in/davidkim"
+      },
+      "featured": true
+    },
+    {
+      "id": "lisa-patel",
+      "name": "Lisa Patel",
+      "role": "Head of Leadership Development",
+      "department": "Leadership",
+      "bio": "Lisa designs and delivers executive coaching and leadership development programs. She is a certified executive coach with a PhD in Organizational Psychology.",
+      "image": "/assets/images/team/lisa-patel.jpg",
+      "social": {
+        "linkedin": "https://linkedin.com/in/lisapatel"
+      },
+      "featured": false
+    },
+    {
+      "id": "james-wilson",
+      "name": "James Wilson",
+      "role": "Senior Strategy Consultant",
+      "department": "Strategy",
+      "bio": "James focuses on competitive analysis and market positioning strategies. He has extensive experience in the technology and healthcare sectors.",
+      "image": "/assets/images/team/james-wilson.jpg",
+      "social": {
+        "linkedin": "https://linkedin.com/in/jameswilson"
+      },
+      "featured": false
+    },
+    {
+      "id": "maria-garcia",
+      "name": "Maria Garcia",
+      "role": "Digital Strategy Lead",
+      "department": "Digital",
+      "bio": "Maria helps companies develop comprehensive digital strategies that drive growth. She specializes in e-commerce and digital marketing transformation.",
+      "image": "/assets/images/team/maria-garcia.jpg",
+      "social": {
+        "linkedin": "https://linkedin.com/in/mariagarcia",
+        "twitter": "https://twitter.com/mariadigital"
+      },
+      "featured": false
+    },
+    {
+      "id": "robert-chang",
+      "name": "Robert Chang",
+      "role": "Operations Consultant",
+      "department": "Operations",
+      "bio": "Robert specializes in supply chain optimization and lean manufacturing. He has helped companies achieve significant improvements in efficiency and cost reduction.",
+      "image": "/assets/images/team/robert-chang.jpg",
+      "social": {
+        "linkedin": "https://linkedin.com/in/robertchang"
+      },
+      "featured": false
+    }
+  ],
+  "departments": [
+    {
+      "id": "leadership",
+      "name": "Leadership",
+      "description": "Executive team and leadership development specialists"
+    },
+    {
+      "id": "strategy",
+      "name": "Strategy",
+      "description": "Strategic planning and business development experts"
+    },
+    {
+      "id": "digital",
+      "name": "Digital",
+      "description": "Digital transformation and technology consultants"
+    },
+    {
+      "id": "operations",
+      "name": "Operations",
+      "description": "Operational excellence and process improvement specialists"
+    }
+  ]
+}

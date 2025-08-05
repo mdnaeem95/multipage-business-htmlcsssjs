@@ -1,0 +1,176 @@
+{
+  "testimonials": [
+    {
+      "id": "test-001",
+      "quote": "Stratosphere transformed our entire business model. Their strategic insights helped us increase revenue by 150% in just 18 months. The ROI has been extraordinary.",
+      "author": "Jennifer Martinez",
+      "role": "CEO",
+      "company": "TechCorp International",
+      "image": "/assets/images/testimonials/jennifer-martinez.jpg",
+      "rating": 5,
+      "service": "strategy-consulting",
+      "featured": true,
+      "date": "2024-01-15"
+    },
+    {
+      "id": "test-002",
+      "quote": "The digital transformation led by Stratosphere revolutionized how we serve our customers. We've seen a 200% increase in online engagement and significantly reduced operational costs.",
+      "author": "David Thompson",
+      "role": "COO",
+      "company": "RetailMax Corporation",
+      "image": "/assets/images/testimonials/david-thompson.jpg",
+      "rating": 5,
+      "service": "digital-transformation",
+      "featured": true,
+      "date": "2024-02-20"
+    },
+    {
+      "id": "test-003",
+      "quote": "Their operations excellence program delivered results beyond our expectations. We achieved a 40% reduction in process time and $15M in annual savings.",
+      "author": "Sarah Kim",
+      "role": "VP Operations",
+      "company": "GlobalBank International",
+      "image": "/assets/images/testimonials/sarah-kim.jpg",
+      "rating": 5,
+      "service": "operations-excellence",
+      "featured": true,
+      "date": "2024-03-10"
+    },
+    {
+      "id": "test-004",
+      "quote": "The leadership development program transformed our management team. Employee engagement scores increased by 45% and we're seeing real cultural change.",
+      "author": "Michael Chen",
+      "role": "CHRO",
+      "company": "InnovateTech Solutions",
+      "image": "/assets/images/testimonials/michael-chen.jpg",
+      "rating": 5,
+      "service": "leadership-development",
+      "featured": true,
+      "date": "2024-01-25"
+    },
+    {
+      "id": "test-005",
+      "quote": "Stratosphere's strategic guidance was instrumental in our successful market expansion. We entered 5 new markets while maintaining our quality standards.",
+      "author": "Dr. Emily Roberts",
+      "role": "Chief Medical Officer",
+      "company": "HealthPlus Networks",
+      "image": "/assets/images/testimonials/emily-roberts.jpg",
+      "rating": 5,
+      "service": "strategy-consulting",
+      "featured": false,
+      "date": "2023-11-15"
+    },
+    {
+      "id": "test-006",
+      "quote": "The team at Stratosphere doesn't just provide advice – they roll up their sleeves and work alongside you. Their expertise in digital transformation is unmatched.",
+      "author": "Robert Johnson",
+      "role": "CTO",
+      "company": "FinBank Global",
+      "image": "/assets/images/testimonials/robert-johnson.jpg",
+      "rating": 5,
+      "service": "digital-transformation",
+      "featured": false,
+      "date": "2023-12-05"
+    },
+    {
+      "id": "test-007",
+      "quote": "We achieved operational excellence through their systematic approach. The improvements in efficiency and cost reduction have been game-changing for our business.",
+      "author": "Lisa Patel",
+      "role": "CEO",
+      "company": "ManufactCo Industries",
+      "image": "/assets/images/testimonials/lisa-patel.jpg",
+      "rating": 5,
+      "service": "operations-excellence",
+      "featured": false,
+      "date": "2024-02-01"
+    },
+    {
+      "id": "test-008",
+      "quote": "The leadership coaching provided by Stratosphere helped me navigate complex organizational challenges and become a more effective leader.",
+      "author": "James Wilson",
+      "role": "Division President",
+      "company": "Global Enterprises",
+      "image": "/assets/images/testimonials/james-wilson.jpg",
+      "rating": 5,
+      "service": "leadership-development",
+      "featured": false,
+      "date": "2023-10-20"
+    },
+    {
+      "id": "test-009",
+      "quote": "Their strategic planning process helped us identify new growth opportunities we hadn't considered. Revenue is up 75% year-over-year.",
+      "author": "Maria Garcia",
+      "role": "CEO",
+      "company": "Growth Dynamics Inc",
+      "image": "/assets/images/testimonials/maria-garcia.jpg",
+      "rating": 5,
+      "service": "strategy-consulting",
+      "featured": false,
+      "date": "2024-03-01"
+    },
+    {
+      "id": "test-010",
+      "quote": "Stratosphere's approach to digital transformation is holistic and practical. They helped us modernize while keeping our core business running smoothly.",
+      "author": "Thomas Lee",
+      "role": "VP Digital",
+      "company": "Traditional Corp",
+      "image": "/assets/images/testimonials/thomas-lee.jpg",
+      "rating": 5,
+      "service": "digital-transformation",
+      "featured": false,
+      "date": "2023-09-15"
+    },
+    {
+      "id": "test-011",
+      "quote": "The supply chain optimization project delivered immediate results. We've reduced delivery times by 40% and improved customer satisfaction significantly.",
+      "author": "Amanda Foster",
+      "role": "COO",
+      "company": "LogiFlow Solutions",
+      "image": "/assets/images/testimonials/amanda-foster.jpg",
+      "rating": 5,
+      "service": "operations-excellence",
+      "featured": false,
+      "date": "2024-01-10"
+    },
+    {
+      "id": "test-012",
+      "quote": "The executive coaching I received was transformative. I'm now leading with more confidence and achieving better results with my team.",
+      "author": "Daniel Martinez",
+      "role": "SVP Sales",
+      "company": "SalesTech Pro",
+      "image": "/assets/images/testimonials/daniel-martinez.jpg",
+      "rating": 5,
+      "service": "leadership-development",
+      "featured": false,
+      "date": "2023-11-01"
+    }
+  ],
+  "statistics": {
+    "totalClients": 250,
+    "averageRating": 4.9,
+    "clientRetentionRate": 94,
+    "projectSuccessRate": 98
+  },
+  "industries": [
+    {
+      "name": "Technology",
+      "percentage": 35
+    },
+    {
+      "name": "Financial Services",
+      "percentage": 25
+    },
+    {
+      "name": "Healthcare",
+      "percentage": 20
+    },
+    {
+      "name": "Retail",
+      "percentage": 15
+    },
+    {
+      "name": "Manufacturing",
+      "percentage": 5
+    }
+  ]
+}

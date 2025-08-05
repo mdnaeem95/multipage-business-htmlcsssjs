@@ -1,0 +1,347 @@
+{
+  "caseStudies": [
+    {
+      "id": "techcorp-transformation",
+      "title": "TechCorp's Digital-First Transformation",
+      "client": "TechCorp International",
+      "industry": "Technology",
+      "services": ["strategy-consulting", "digital-transformation"],
+      "featured": true,
+      "image": "/assets/images/case-studies/techcorp-hero.jpg",
+      "thumbnail": "/assets/images/case-studies/techcorp-thumb.jpg",
+      "challenge": "TechCorp, a legacy software company, was losing market share to cloud-native competitors and needed to transform their business model and technology stack.",
+      "solution": "We developed a comprehensive digital transformation strategy, including cloud migration, SaaS transition, and new go-to-market approaches. Our team also restructured their organization to be more agile and customer-centric.",
+      "results": {
+        "metrics": [
+          {
+            "value": "150%",
+            "label": "Revenue Growth",
+            "description": "Achieved in 18 months"
+          },
+          {
+            "value": "60%",
+            "label": "Cost Reduction",
+            "description": "In infrastructure costs"
+          },
+          {
+            "value": "3x",
+            "label": "Customer Acquisition",
+            "description": "Increase in new customers"
+          }
+        ],
+        "summary": "TechCorp successfully transitioned to a cloud-first SaaS model, tripling their valuation and establishing themselves as a market leader in their segment."
+      },
+      "duration": "18 months",
+      "teamSize": 8,
+      "technologies": ["AWS", "Kubernetes", "React", "Node.js", "MongoDB"],
+      "testimonial": {
+        "quote": "Stratosphere didn't just give us a strategy; they partnered with us through every step of our transformation. Their expertise was instrumental in our success.",
+        "author": "Jennifer Martinez",
+        "role": "CEO, TechCorp International",
+        "image": "/assets/images/team/testimonial-jennifer.jpg"
+      },
+      "tags": ["digital-transformation", "saas", "cloud-migration", "strategy"]
+    },
+    {
+      "id": "healthplus-expansion",
+      "title": "HealthPlus Market Expansion Strategy",
+      "client": "HealthPlus Networks",
+      "industry": "Healthcare",
+      "services": ["strategy-consulting", "operations-excellence"],
+      "featured": true,
+      "image": "/assets/images/case-studies/healthplus-hero.jpg",
+      "thumbnail": "/assets/images/case-studies/healthplus-thumb.jpg",
+      "challenge": "HealthPlus needed to expand into new markets while maintaining quality of care and managing regulatory compliance across different states.",
+      "solution": "We developed a phased market entry strategy, optimized their operations for scalability, and created a compliance framework that could adapt to different regulatory environments.",
+      "results": {
+        "metrics": [
+          {
+            "value": "5",
+            "label": "New Markets",
+            "description": "Successfully entered"
+          },
+          {
+            "value": "40%",
+            "label": "Patient Growth",
+            "description": "Year-over-year increase"
+          },
+          {
+            "value": "98%",
+            "label": "Compliance Rate",
+            "description": "Across all markets"
+          }
+        ],
+        "summary": "HealthPlus successfully expanded into five new markets while maintaining high quality standards and achieving industry-leading patient satisfaction scores."
+      },
+      "duration": "12 months",
+      "teamSize": 6,
+      "technologies": ["Epic EHR", "Tableau", "Salesforce Health Cloud"],
+      "testimonial": {
+        "quote": "The strategic framework Stratosphere developed allowed us to scale rapidly while maintaining our commitment to patient care excellence.",
+        "author": "Dr. Michael Chen",
+        "role": "Chief Medical Officer, HealthPlus Networks",
+        "image": "/assets/images/team/testimonial-michael.jpg"
+      },
+      "tags": ["healthcare", "expansion", "strategy", "operations"]
+    },
+    {
+      "id": "finbank-digital",
+      "title": "FinBank's Digital Banking Revolution",
+      "client": "FinBank Global",
+      "industry": "Financial Services",
+      "services": ["digital-transformation", "leadership-development"],
+      "featured": false,
+      "image": "/assets/images/case-studies/finbank-hero.jpg",
+      "thumbnail": "/assets/images/case-studies/finbank-thumb.jpg",
+      "challenge": "Traditional retail bank facing disruption from fintech startups needed to modernize their digital capabilities and culture.",
+      "solution": "We implemented a comprehensive digital banking platform, redesigned customer journeys, and conducted extensive leadership development to drive cultural change.",
+      "results": {
+        "metrics": [
+          {
+            "value": "70%",
+            "label": "Digital Adoption",
+            "description": "Among customers"
+          },
+          {
+            "value": "45%",
+            "label": "Cost Savings",
+            "description": "In branch operations"
+          },
+          {
+            "value": "4.8/5",
+            "label": "App Rating",
+            "description": "Customer satisfaction"
+          }
+        ],
+        "summary": "FinBank transformed from a traditional bank to a digital-first institution, winning multiple industry awards for innovation."
+      },
+      "duration": "24 months",
+      "teamSize": 12,
+      "technologies": ["React Native", "AWS", "Plaid", "Machine Learning"],
+      "tags": ["fintech", "digital-banking", "mobile", "culture-change"]
+    },
+    {
+      "id": "retailmax-digital",
+      "title": "RetailMax Omnichannel Excellence",
+      "client": "RetailMax Corporation",
+      "industry": "Retail",
+      "services": ["digital-transformation", "operations-excellence"],
+      "featured": false,
+      "image": "/assets/images/case-studies/retailmax-hero.jpg",
+      "thumbnail": "/assets/images/case-studies/retailmax-thumb.jpg",
+      "challenge": "Major retailer struggling with e-commerce competition needed to create seamless omnichannel experiences.",
+      "solution": "We designed and implemented an integrated omnichannel platform, optimized inventory management, and created personalized customer experiences across all touchpoints.",
+      "results": {
+        "metrics": [
+          {
+            "value": "200%",
+            "label": "Online Sales Growth",
+            "description": "In first year"
+          },
+          {
+            "value": "35%",
+            "label": "Customer Retention",
+            "description": "Improvement"
+          },
+          {
+            "value": "25%",
+            "label": "Inventory Reduction",
+            "description": "Through optimization"
+          }
+        ],
+        "summary": "RetailMax became an omnichannel leader in their category, significantly improving both online and in-store performance."
+      },
+      "duration": "15 months",
+      "teamSize": 10,
+      "technologies": ["Shopify Plus", "Segment", "Klaviyo", "NetSuite"],
+      "tags": ["retail", "ecommerce", "omnichannel", "customer-experience"]
+    },
+    {
+      "id": "globalbank-transformation",
+      "title": "GlobalBank Process Automation",
+      "client": "GlobalBank International",
+      "industry": "Banking",
+      "services": ["operations-excellence", "digital-transformation"],
+      "featured": false,
+      "image": "/assets/images/case-studies/globalbank-hero.jpg",
+      "thumbnail": "/assets/images/case-studies/globalbank-thumb.jpg",
+      "challenge": "Large international bank needed to reduce operational costs and improve processing times while maintaining compliance.",
+      "solution": "We implemented robotic process automation (RPA) across key processes, redesigned workflows, and established a center of excellence for continuous improvement.",
+      "results": {
+        "metrics": [
+          {
+            "value": "80%",
+            "label": "Process Time Reduction",
+            "description": "For key operations"
+          },
+          {
+            "value": "$15M",
+            "label": "Annual Savings",
+            "description": "In operational costs"
+          },
+          {
+            "value": "99.9%",
+            "label": "Accuracy Rate",
+            "description": "In automated processes"
+          }
+        ],
+        "summary": "GlobalBank achieved dramatic improvements in efficiency while maintaining the highest standards of accuracy and compliance."
+      },
+      "duration": "18 months",
+      "teamSize": 8,
+      "technologies": ["UiPath", "Blue Prism", "Python", "Tableau"],
+      "tags": ["banking", "automation", "rpa", "process-improvement"]
+    },
+    {
+      "id": "manufact-iot",
+      "title": "ManufactCo Smart Factory Initiative",
+      "client": "ManufactCo Industries",
+      "industry": "Manufacturing",
+      "services": ["digital-transformation", "operations-excellence"],
+      "featured": false,
+      "image": "/assets/images/case-studies/manufact-hero.jpg",
+      "thumbnail": "/assets/images/case-studies/manufact-thumb.jpg",
+      "challenge": "Traditional manufacturer needed to modernize operations and implement Industry 4.0 technologies to remain competitive.",
+      "solution": "We designed and implemented an IoT-enabled smart factory solution with predictive maintenance, real-time monitoring, and AI-driven optimization.",
+      "results": {
+        "metrics": [
+          {
+            "value": "30%",
+            "label": "Productivity Increase",
+            "description": "Through optimization"
+          },
+          {
+            "value": "50%",
+            "label": "Downtime Reduction",
+            "description": "Via predictive maintenance"
+          },
+          {
+            "value": "20%",
+            "label": "Energy Savings",
+            "description": "Through smart systems"
+          }
+        ],
+        "summary": "ManufactCo transformed into a smart manufacturing leader, setting new industry benchmarks for efficiency and sustainability."
+      },
+      "duration": "20 months",
+      "teamSize": 9,
+      "technologies": ["Azure IoT", "TensorFlow", "Power BI", "SAP"],
+      "tags": ["manufacturing", "iot", "industry-4.0", "ai"]
+    },
+    {
+      "id": "logistics-optimization",
+      "title": "LogiFlow Supply Chain Revolution",
+      "client": "LogiFlow Solutions",
+      "industry": "Logistics",
+      "services": ["operations-excellence", "digital-transformation"],
+      "featured": false,
+      "image": "/assets/images/case-studies/logistics-hero.jpg",
+      "thumbnail": "/assets/images/case-studies/logistics-thumb.jpg",
+      "challenge": "Logistics company facing pressure to reduce delivery times and costs while improving tracking capabilities.",
+      "solution": "We redesigned their entire supply chain network, implemented advanced analytics for route optimization, and created a real-time tracking platform.",
+      "results": {
+        "metrics": [
+          {
+            "value": "40%",
+            "label": "Delivery Time Reduction",
+            "description": "Average improvement"
+          },
+          {
+            "value": "25%",
+            "label": "Cost Reduction",
+            "description": "In transportation"
+          },
+          {
+            "value": "95%",
+            "label": "On-Time Delivery",
+            "description": "Performance rate"
+          }
+        ],
+        "summary": "LogiFlow became the industry leader in delivery performance, winning major contracts from Fortune 500 companies."
+      },
+      "duration": "14 months",
+      "teamSize": 7,
+      "technologies": ["Oracle Transportation Management", "Tableau", "React", "GPS/IoT"],
+      "tags": ["logistics", "supply-chain", "optimization", "analytics"]
+    },
+    {
+      "id": "techleaders-program",
+      "title": "TechLeaders Development Program",
+      "client": "Multiple Technology Companies",
+      "industry": "Technology",
+      "services": ["leadership-development"],
+      "featured": false,
+      "image": "/assets/images/case-studies/techleaders-hero.jpg",
+      "thumbnail": "/assets/images/case-studies/techleaders-thumb.jpg",
+      "challenge": "Tech companies struggling to develop leaders who could balance technical expertise with business acumen and people skills.",
+      "solution": "We created a comprehensive leadership development program combining assessments, coaching, peer learning, and real-world projects.",
+      "results": {
+        "metrics": [
+          {
+            "value": "200+",
+            "label": "Leaders Developed",
+            "description": "Across 15 companies"
+          },
+          {
+            "value": "92%",
+            "label": "Promotion Rate",
+            "description": "Within 18 months"
+          },
+          {
+            "value": "4.9/5",
+            "label": "Program Rating",
+            "description": "Participant satisfaction"
+          }
+        ],
+        "summary": "The TechLeaders program has become the gold standard for leadership development in the technology sector."
+      },
+      "duration": "Ongoing",
+      "teamSize": 5,
+      "tags": ["leadership", "training", "technology", "executive-development"]
+    }
+  ],
+  "industries": [
+    {
+      "id": "technology",
+      "name": "Technology",
+      "count": 15
+    },
+    {
+      "id": "healthcare",
+      "name": "Healthcare",
+      "count": 12
+    },
+    {
+      "id": "financial-services",
+      "name": "Financial Services",
+      "count": 18
+    },
+    {
+      "id": "retail",
+      "name": "Retail",
+      "count": 10
+    },
+    {
+      "id": "manufacturing",
+      "name": "Manufacturing",
+      "count": 8
+    },
+    {
+      "id": "logistics",
+      "name": "Logistics",
+      "count": 6
+    }
+  ],
+  "tags": [
+    "digital-transformation",
+    "strategy",
+    "operations",
+    "leadership",
+    "cloud-migration",
+    "automation",
+    "ai",
+    "iot",
+    "customer-experience",
+    "culture-change"
+  ]
+}
